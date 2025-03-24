@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #ff0a0a;
+}
+
+.msm-text-danger {
+    color: #E11F25 !important;
+}
+
+.msm-text-success {
+    color: #029936 !important;
+}
+
+.msm-text-secondary {
+    color: #cfcfcf !important;
+}
+
+.msm-mt-5 {
+    margin-top: 6rem;
+}
+
+.fw-normal {
+    font-weight: 600 !important;
+}
+
+.text-orange {
+    color: var(--primary-color) !important;
+}
+
+@media (max-width: 992px) {
+    .lw-msm-button {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.msm-scroll-to-top-btn {
+    position: fixed;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid #ff0a0a;
+    bottom: 40px;
+    color: #ff0a0a;
+    font-size: 16px;
+    background-color: #23d3660f;
+    line-height: 10px;
+
+    &:hover {
+        color: hsl(0, 0%, 100%);
+        background: #ff0a0a;
+    }
+}
+
+.text-green {
+    color: #23d366;
+}
+
+.msm-policy-section {
+    .text-secondary {
+        color: #808080 !important;
+        font-weight: 400;
+    }
+
+    .text-light {
+        color: white !important;
+    }
+}
+hr{
+    border-top: 1px solid #666363;
+}

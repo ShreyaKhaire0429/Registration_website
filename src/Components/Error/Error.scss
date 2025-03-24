@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #faca2e;
+  --eye-pupil-color: #050505;
+  --bg-color: #fff;
+  --pupil-size: 30px;
+  --eye-size: 80px;
+
+  .msm-error-page-block {
+    display: flex;
+    min-height: 100vh;
+
+    .msm-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .eyes {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .eye {
+    width: var(--eye-size);
+    height: var(--eye-size);
+    background-color: #d2d2d2;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+    &__pupil {
+      width: var(--pupil-size);
+      height: var(--pupil-size);
+      background-color: var(--eye-pupil-color);
+      border-radius: 50%;
+      animation: movePupil 2s infinite ease-in-out;
+      transform-origin: center center;
+
+    }
+
+    @keyframes movePupil {
+
+      0%,
+      100% {
+        transform: translate(0, 0);
+      }
+
+      25% {
+        transform: translate(-10px, -10px);
+      }
+
+      50% {
+        transform: translate(10px, 10px);
+      }
+
+      75% {
+        transform: translate(-10px, 10px);
+      }
+    }
+  }
+}

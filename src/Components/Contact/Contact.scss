@@ -1,0 +1,109 @@
+.msm-contact-page-block {
+
+    padding: 8rem 0rem;
+
+    form {
+        max-width: 100%;
+        gap: 30px;
+
+        input {
+            padding: 12px 15px;
+        }
+
+
+    }
+
+    .msm-icons {
+        gap: 17px;
+        display: flex;
+        font-size: 26px;
+        margin-top: 15px;
+
+        a {
+            color: white;
+        }
+
+    }
+
+    .social-menu {
+        display: flex;
+        justify-content: start;
+        padding: 0;
+        gap: 7px;
+    }
+
+    .social-btn {
+        list-style: none;
+        width: 45px;
+        height: 45px;
+        background: #fff;
+        border-radius: 30%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 10px 10px -5px rgb(255, 255, 255, 0.1);
+        transition: all 0.3s;
+        z-index: 10px;
+        border: 1px solid #ddd;
+        font-size: 20px;
+    }
+
+    .social-btn a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .social-btn:hover a {
+        color: #fff;
+    }
+
+    .facebook a {
+        color: #3b5999;
+    }
+
+    .facebook:hover,
+    .facebook:hover .social-btn:before,
+    .facebook:hover .social-btn:after {
+        background: #3b5999;
+    }
+
+    .instagram a {
+        color: #962fbf;
+    }
+
+    .instagram:hover,
+    .instagram:hover .social-btn:before,
+    .instagram:hover .social-btn:after {
+        background: linear-gradient(104.11deg, #8F08F8 -24.68%, #FD344D 35.83%, #FEC101 100%);
+    }
+
+    .whatsapp a {
+        color: #007a02;
+    }
+
+    .whatsapp:hover,
+    .whatsapp:hover .social-btn:before,
+    .whatsapp:hover .social-btn:after {
+        background: #007a02;
+    }
+
+    .telegram a {
+        color: #0072b1;
+    }
+
+    .telegram:hover,
+    .telegram:hover .social-btn:before,
+    .telegram:hover .social-btn:after {
+        background: #0072b1;
+    }
+
+    .msm-font-size {
+        font-size: 13px;
+    }
+
+    .form-container {
+        background-color: transparent;
+
+    }
+}

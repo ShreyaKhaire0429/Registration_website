@@ -1,0 +1,175 @@
+.msm-about-block-section {
+    background-image: url("/assets/img/bg-testimonial.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: animatedBackground 10s linear infinite alternate;
+    background-size: 105% !important;
+    background-color: #100519;
+    padding: 7rem 0rem;
+}
+
+.msm-about-content-block {
+    padding: 4rem 16px;
+
+    .msm-card {
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        gap: 10px;
+        padding: 0.4em;
+
+        p {
+            height: 100%;
+            flex: 1;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.5s;
+            border: 1px solid #373737;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+
+            &:hover {
+                flex: 4;
+
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease-in-out;
+            }
+        }
+    }
+}
+
+.msm-text-color {
+    color: #cecece;
+}
+
+.msm-about-us-section {
+    padding: 4rem 16px;
+    padding-bottom: 5rem;
+
+    li {
+        list-style: none;
+    }
+
+    .msm-icons {
+        gap: 17px;
+        display: flex;
+        font-size: 26px;
+        margin-top: 15px;
+
+        a {
+            color: white;
+        }
+
+    }
+
+    .social-menu {
+        display: flex;
+        justify-content: start;
+        padding: 0;
+        gap: 7px;
+    }
+
+    .social-btn {
+        list-style: none;
+        width: 45px;
+        height: 45px;
+        background: #fff;
+        border-radius: 30%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 10px 10px -5px rgb(255, 255, 255, 0.1);
+        transition: all 0.3s;
+        z-index: 10px;
+        font-size: 20px;
+        border: 1px solid #ddd;
+        margin-top: 5px;
+    }
+    
+    .social-btn a {
+       
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .social-btn:hover a {
+        color: #fff;
+    }
+
+    .facebook a {
+        color: #3b5999;
+    }
+
+    .facebook:hover,
+    .facebook:hover .social-btn:before,
+    .facebook:hover .social-btn:after {
+        background: #3b5999;
+    }
+
+    .instagram a {
+        color: #962fbf;
+    }
+
+    .instagram:hover,
+    .instagram:hover .social-btn:before,
+    .instagram:hover .social-btn:after {
+        background: linear-gradient(104.11deg, #8F08F8 -24.68%, #FD344D 35.83%, #FEC101 100%);
+    }
+
+    .whatsapp a {
+        color: #007a02;
+    }
+
+    .whatsapp:hover,
+    .whatsapp:hover .social-btn:before,
+    .whatsapp:hover .social-btn:after {
+        background: #007a02;
+    }
+
+    .telegram a {
+        color: #0072b1;
+    }
+
+    .telegram:hover,
+    .telegram:hover .social-btn:before,
+    .telegram:hover .social-btn:after {
+        background: #0072b1;
+    }
+
+    .msm-about-img {
+        width: 28rem;
+        height: 28rem;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #fff;
+    }
+}
+
+.msm-what-we-offer-section {
+    padding: 4rem 16px;
+
+    .msm-block {
+       background: white;
+       box-shadow: 0 1px 5px rgba(0,0,0,.25);
+        padding: 30px 20px;
+        border-radius: 15px;
+        height: 100%;
+        border-bottom: 3px solid var(--primary-color);
+        transition: transform 0.5s ease-in-out;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

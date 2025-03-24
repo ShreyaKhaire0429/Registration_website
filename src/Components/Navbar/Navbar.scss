@@ -1,0 +1,31 @@
+/* navmenu css only */
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+// .navbar-nav .nav-link:hover {
+//     color: #ff0a0a;
+// }
+
+// .navbar-nav .nav-link.active {
+//     color: #ff0a0a !important;
+// }
+
+.navbar-toggler {
+    background: #ffffff !important;
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+.bg-primary-color, .navbar-nav{
+    background-color: #0a0226;
+}

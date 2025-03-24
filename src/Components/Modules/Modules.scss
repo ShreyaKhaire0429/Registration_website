@@ -1,0 +1,45 @@
+.msm-module-page-block {
+    .btn-toggle-collapse {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border: none;
+        padding: 18px 20px;
+        cursor: pointer;
+        text-align: cebter;
+        width: 90%;
+        border-radius: 12px;
+        border-right: 4px solid var(--primary-color);
+        margin: auto auto 30px auto;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, .25);
+    }
+
+    .msm-modal-para p {
+        margin: 0;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 15px;
+        // white-space: ;
+    }
+
+    strong {
+        font-weight: 510;
+    }
+
+    ol li {
+        margin-bottom: 10px;
+
+        ul li {
+            margin-bottom: 0px;
+        }
+    }
+
+    .list-style-disc {
+        list-style: disc;
+    }
+
+    .list-style-circle {
+        list-style: circle;
+    }
+}
